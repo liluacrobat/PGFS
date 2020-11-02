@@ -20,23 +20,13 @@ DATA: data matrix whose columns are samples and rows are features
 ### Optional arguments  
 ```
 Para: parameters used by PGFS
-    sigma - kernel width (default:0.01) 
-    beta - tree length regularization (default:10)
-    lambda - sparness regularization (default:16)
-    it - maximum iteration (defayult:50)
-    M - number of points on the principal graph (default: number of samples)
+  sigma - kernel width (default:0.01) 
+  beta - tree length regularization (default:10)
+  lambda - sparness regularization (default:16)
+  it - maximum iteration (defayult:50)
+  M - number of points on the principal graph (default: number of samples)
 ```    
-### Output
-```
-Weight: feature weight
-Y: latent points on the principal graph 
-B: edge indicators
-R: soft assignment coefficients
-Objective: objective value
-History: records of the leasrning process
-MSE: mean squared error
-TreeLength: tree length
-```
+
 ## Example
 We provide a demo of applying PGFS to a prostate cancer data set [1] to demonstrate its utility for solving a real-world problem. The experimental data (accession number GSE6919) is downloaded from NCBI's Gene Expression Omnibus (GEO). The data set contains gene expression information of over 12,000 genes obtained from 168 patient tissue samples, including 17 from normal prostate (NP), 60 normal tissues adjacent to tumors (NA), 66 primary tumors (PT), and 25 metastatic tumors (MT), which can be regarded as a progressive series of prostate disease. 
 
