@@ -30,7 +30,7 @@ Para: parameters used by PGFS
 ## Example
 We provide a demo of applying PGFS to a prostate cancer data set [1] to demonstrate its utility for solving a real-world problem. The experimental data (accession number GSE6919) is downloaded from NCBI's Gene Expression Omnibus (GEO). The data set contains gene expression information of over 12,000 genes obtained from 168 patient tissue samples, including 17 from normal prostate (NP), 60 normal tissues adjacent to tumors (NA), 66 primary tumors (PT), and 25 metastatic tumors (MT), which can be regarded as a progressive series of prostate disease. 
 
-We can perform feature selection while uncovering the cancer progression structure embedded in the high-dimentional space by running 'DEMO_PGFS.m' under the 'example' directory. The precalculated results is stored in the 'example/precalculated/'. 
+We can perform feature selection while uncovering the cancer progression structure embedded in the high-dimentional space by running 'DEMO_PGFS.m' under the 'example' directory. The precalculated results is stored in the 'example/precalculated/' directory. 
 
 ## Reference
 [1] U. R. Chandran, C. Ma, R. Dhir, M. Bisceglia, M. Lyons-Weiler, W. Liang, G. Michalopoulos, M. Becich, and F. A. Monzon, “Gene
