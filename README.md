@@ -5,7 +5,7 @@ A pipeline to characterize the underlying manifold of biology data and select re
 The setup process for the proposed pipeline requires the following steps:
 ### Download the pipeline
 ```bash
-git clone https://github.com/liluacrobat/MicroDynamics.git
+git clone https://github.com/liluacrobat/PGFS.git
 ```
 
 ### Requirement
